@@ -4,7 +4,7 @@ This script is designed for the **Shelly Pro 3 EM** energy meter (tested with FW
 
 It automatically creates and manages virtual components for **Daily**, **Monthly**, **Yearly**, and a **Manually Resettable Billing Period** consumption. These virtual meters are fully compatible with **Home Assistant** via the Shelly integration, offering persistent and easily manageable energy sensors.
 
-<img width="255" alt="image" src="https://github.com/user-attachments/assets/74f0262f-93f3-4532-b1d8-7617a36c3410">  
+<img width="341" height="824" alt="Bildschirmfoto vom 2025-11-06 17-08-17" src="https://github.com/user-attachments/assets/3d35f3bb-e616-4039-802b-8b6feda5ff8e" />
 
 ---
 
@@ -22,7 +22,7 @@ Version 0.2 introduces a dedicated, manually resettable counter for tracking con
 ## 🚀 Key Features
 
 * **Persistent Energy Tracking:** Measures active power consumption, converts it to **kWh**, and stores the running totals in virtual components.
-    <img width="1374" alt="image" src="https://github.com/user-attachments/assets/2326cdf4-b8bd-49a6-a248-0e39a6fd4b05">
+<img width="1093" height="340" alt="Bildschirmfoto vom 2025-11-06 17-08-51" src="https://github.com/user-attachments/assets/a4ea5f12-83e2-4979-8312-89de3aa330a2" />
 
 * **Automatic Resets:**
     * **Daily Counter:** Resets at midnight.
@@ -34,7 +34,6 @@ Version 0.2 introduces a dedicated, manually resettable counter for tracking con
     * The reset time is saved, ensuring the counter remains at zero even after a device reboot until the next power measurement.
 
 * **Home Assistant Integration:** All virtual counters and the reset button appear as sensors/entities in Home Assistant, enabling direct monitoring and control.
-    <img width="1401" alt="image" src="https://github.com/user-attachments/assets/58d08d7c-33fb-49ec-a71f-995387e07009">
 
 ---
 
@@ -45,7 +44,8 @@ Version 0.2 introduces a dedicated, manually resettable counter for tracking con
     <img width="1391" alt="image" src="https://github.com/user-attachments/assets/71ef8725-e463-44cc-ab15-64d784d55420">
 3.  **Enable Auto-Start:** Ensure the script is configured to **Auto-start on power loss / reboot**.
    
-    <img width="250" alt="image" src="https://github.com/user-attachments/assets/1385ab48-0076-43d0-b457-963026b35612">
+    <img width="342" height="72" alt="Bildschirmfoto vom 2025-11-06 17-11-01" src="https://github.com/user-attachments/assets/0214ef0d-9ded-4b6e-b7be-98d3dc267525" />
+
 
 The required virtual `number` components (for the counters) and the `button` component (for the billing reset) will be created **automatically** upon the script's first run.
 
